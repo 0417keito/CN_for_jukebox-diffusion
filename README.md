@@ -1,4 +1,4 @@
-# Jukebox Diffusion
+# [WIP] CN for Jukebox Diffusion
 
 <p align="left">
     <a href="https://colab.research.google.com/github/jmoso13/jukebox-diffusion/blob/main/Jukebox_Diffusion.ipynb"><img alt="Colab" src="https://colab.research.google.com/assets/colab-badge.svg"></a>  
