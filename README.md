@@ -1,4 +1,6 @@
-# Jukebox Diffusion
+# [WIP] CN for Jukebox Diffusion
+
+This repository is for adapting ControlNet(https://arxiv.org/abs/2302.05543) to Jukebox-diffusion. However, there are several issues. First, the optimization of input_hint_block and zero_conv is required. The diffusion model used in Jukebox-diffusion is different from the diffusion models used in AudioLDM(https://github.com/haoheliu/AudioLDM) and Tango(https://github.com/declare-lab/tango) that inspired by stable diffusion, necessitating special adjustments for ControlNet. The optimization of input_hint_block and zero_conv is crucial. Also, the sampling method used in Jukebox-diffusion is unique, requiring additional innovation.
 
 <p align="left">
     <a href="https://colab.research.google.com/github/jmoso13/jukebox-diffusion/blob/main/Jukebox_Diffusion.ipynb"><img alt="Colab" src="https://colab.research.google.com/assets/colab-badge.svg"></a>  
